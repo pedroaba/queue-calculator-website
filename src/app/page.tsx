@@ -1,7 +1,15 @@
+import { FeaturesSection } from '@queue/components/features'
+import { FooterSection } from '@queue/components/footer'
+import { HeroSection } from '@queue/components/hero'
+import { ScreenshotsSection } from '@queue/components/screenshots'
+
 export default function Home() {
   return (
-    <main>
-      <div>Hello world!</div>
+    <main className="min-h-screen bg-slate-900">
+      <HeroSection />
+      <FeaturesSection />
+      <ScreenshotsSection />
+      <FooterSection />
     </main>
-  );
+  )
 }
